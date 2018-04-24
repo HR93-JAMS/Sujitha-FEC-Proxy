@@ -3,13 +3,17 @@
   "version": "",
   "description": "",
   "author": "",
+  
   "license": "",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon ./server/index.js"
   },
   "dependencies": {
+    "morgan": "^1.9.0",
+    "express": "^4.16.2"
   },
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
